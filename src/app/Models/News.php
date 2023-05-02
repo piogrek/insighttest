@@ -18,6 +18,7 @@ class News extends Model
     protected $fillable = [
         "type",
         "text",
+        "title",
         "files",
         "upload",
         "blocks",
@@ -43,5 +44,9 @@ class News extends Model
         "ts" => "datetime",
         "thread_ts" => "datetime",
         "latest_reply" => "datetime",
+        'files' => 'array',
+        'attachments' => 'array',
+
     ];
+
 }

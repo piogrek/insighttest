@@ -10,14 +10,18 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 
 class NewsController extends Controller
 {
-    use AuthorizesRequests, ValidatesRequests;
 
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        //
+        // get all news items from the database
+        $news = News::all();
+    
+        return view('news.index', [
+            'news' => $news,
+        ]);
     }
 
     /**

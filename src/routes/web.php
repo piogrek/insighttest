@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\NewsController;
 use GuzzleHttp\Middleware;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
@@ -16,9 +17,7 @@ use App\Http\Controllers\UserController;
 |
 */
 
-Route::middleware('auth')->get('/', function () {
-    return view('home');
-})->name('home');
+Route::middleware('auth')->get('/', [NewsController::class,"index"])->name('home');
 
 Route::get('/login', function () {
     return view('login');
