@@ -41,3 +41,10 @@
 .article .link {
     text-decoration: underline;
 }
+
+.title {
+    font-size: 30px;
+    color:#eee;
+    margin-bottom: 20px;
+}
+

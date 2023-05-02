@@ -18,7 +18,7 @@ class NewsController extends Controller
     {
         // get all news items from the database
         $news = News::all();
-    
+
         return view('news.index', [
             'news' => $news,
         ]);

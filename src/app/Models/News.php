@@ -18,25 +18,8 @@ class News extends Model
     protected $fillable = [
         "type",
         "text",
-        "title",
         "files",
-        "upload",
-        "blocks",
-        "user",
-        "display_as_bot",
         "ts",
-        "client_msg_id",
-        "thread_ts",
-        "reply_count",
-        "reply_users_count",
-        "latest_reply",
-        "reply_users",
-        "replies",
-        "subscribed",
-        "source_team",
-        "user_profile",
-        "user_team",
-        "team",
         "attachments",
     ];
 
@@ -46,7 +29,5 @@ class News extends Model
         "latest_reply" => "datetime",
         'files' => 'array',
         'attachments' => 'array',
-
     ];
-
 }

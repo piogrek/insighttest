@@ -49,11 +49,10 @@
                                 <input type="password" name="password" id="password" placeholder="Password" class="px-4 py-2 text-gray-700 bg-gray-200 border border-transparent rounded-md dark:bg-gray-700 dark:text-gray-300 dark:border-gray-600 focus:border-red-500 focus:outline-none    focus:ring-2 focus:ring-red-500 focus:ring-opacity-50" />   
                             </div>
                         </div>
-<button type="submit">Submit</button>
-                             
+                    <button class="btn my-5" type="submit">Submit</button>
+                                
 
-
-                </div>
+                    </div>
 
                 </form>
             </div>

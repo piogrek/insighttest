@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.dark .btn {
+    border:1px solid #eee;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #eee;
+}

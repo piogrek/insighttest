@@ -29,6 +29,7 @@
             @endif
             <div  class="bg-white dark:bg-slate-800  px-6 py-8 ring-1 ring-slate-900/5 ">
                 <div class="md:container md:mx-auto">
+                    <h1 class="title">Latest News</h1>
                     <div class="articles-wrp">
                     @foreach ($news as $article)
                         @if ($article->attachments)
