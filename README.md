@@ -5,7 +5,10 @@
 
 `cd src`
 
-# start assets live compiler
+# install composer dependencies
+`composer install`
+
+# install js dependencies and start assets live compile
 `npm i`
 
 `npm run dev`
